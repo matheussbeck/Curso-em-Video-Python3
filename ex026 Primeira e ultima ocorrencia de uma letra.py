@@ -1,0 +1,6 @@
+frase=str(input('Digite uma frase: ')).upper()
+letra=str(input('Qual letra deseja encontrar? ')).upper()
+print('A letra {} aparece {} vezes na frase.'.format(letra,frase.count(letra)))
+print('A primeira letra {} apareceu na posição {}.'.format(letra,frase.find(letra)+1))
+print('A primeira letra {} apareceu na posição {}.'.format(letra,frase.rfind(letra)+1))
+print('A frase contem um total de {} caracteres.'.format(len(frase)))

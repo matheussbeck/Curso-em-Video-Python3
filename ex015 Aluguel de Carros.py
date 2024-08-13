@@ -1,0 +1,7 @@
+cd = float(input('Qual o valor da diária do veículo ? R$'))
+ck = float(input('Qual o valor por Km rodado do Veículo ? R$'))
+d = int(input('Quantos dias durou a locação ? '))
+k = int(input('Quantos Km foram percorridos durante a Locação ? '))
+loc = (cd*d)+(ck*k)
+print('O valor total a ser pago é de R$ {:.2f}.'.format(loc))
+print('Sendo R$ {:.2f} equivalente às diárias e R$ {:.2f} correspondente a {} Km rodados.'.format(cd*d,ck*k,k))
